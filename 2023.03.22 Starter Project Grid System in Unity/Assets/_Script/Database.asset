@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676f01247879fbc478c269939be330a1, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  objectsData:
+  - <Name>k__BackingField: Floor
+    <ID>k__BackingField: 0
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 175886647813805099, guid: 6bafb9556d35ba840bebea4eea7d34c2,
+      type: 3}
+  - <Name>k__BackingField: Contenedores
+    <ID>k__BackingField: 1
+    <Damage>k__BackingField: 20
+    <Size>k__BackingField: {x: 3, y: 1}
+    <Prefab>k__BackingField: {fileID: 4107055875934710882, guid: dd75eb338305c9a42a85590820bed91d,
+      type: 3}
+  - <Name>k__BackingField: Big bed
+    <ID>k__BackingField: 2
+    <Damage>k__BackingField: 30
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 3487007735555770654, guid: 4721f1b576334dc46b3c72470bf613e3,
+      type: 3}
+  - <Name>k__BackingField: BasuraReciclaje
+    <ID>k__BackingField: 3
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 46538758778779713, guid: 850e8b18ddd54d24584aabdc23c2290d,
+      type: 3}
+  - <Name>k__BackingField: SolarPanel
+    <ID>k__BackingField: 4
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 7069388763056731790, guid: 698cbc5c1b3bf5342b148ffa78c6d35f,
+      type: 3}
+  - <Name>k__BackingField: BloqueTierra
+    <ID>k__BackingField: 5
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 919132149155446097, guid: afbd7973f4a68ff4b8f90656bc5b3465,
+      type: 3}
+  - <Name>k__BackingField: Turbina
+    <ID>k__BackingField: 6
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 1, y: 2}
+    <Prefab>k__BackingField: {fileID: 857476336259671956, guid: 64ac235c5fef6b64ab17776a9a212eeb,
+      type: 3}
+  - <Name>k__BackingField: Contenedores
+    <ID>k__BackingField: 7
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 1, y: 2}
+    <Prefab>k__BackingField: {fileID: 857476336259671956, guid: 64ac235c5fef6b64ab17776a9a212eeb,
+      type: 3}
+  - <Name>k__BackingField: Bus
+    <ID>k__BackingField: 8
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 11, y: 3}
+    <Prefab>k__BackingField: {fileID: 7942848413508311141, guid: b72873be3e3311d4a8d1690435aa9f24,
+      type: 3}
+  - <Name>k__BackingField: ParkingBicis
+    <ID>k__BackingField: 9
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 845545407180736577, guid: 16f0c8db60c97314a9f37f6a3a9a2bf8,
+      type: 3}
+  - <Name>k__BackingField: TanquesVivienda
+    <ID>k__BackingField: 10
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 1201397470217979530, guid: a82aaa2f6b3202b47b5978f6cc7902f4,
+      type: 3}
+  - <Name>k__BackingField: Coche
+    <ID>k__BackingField: 11
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 6, y: 3}
+    <Prefab>k__BackingField: {fileID: 3149713438740404616, guid: 2e6f9c086eb7a6745be86dbe47a20ac6,
+      type: 3}
+  - <Name>k__BackingField: ReservaAgua
+    <ID>k__BackingField: 12
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 3556197891801080881, guid: 2e6ced941f11ca44bb4d9e445c9938d9,
+      type: 3}
+  - <Name>k__BackingField: EstacionBus
+    <ID>k__BackingField: 13
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 4, y: 8}
+    <Prefab>k__BackingField: {fileID: 6808214436494879874, guid: da0464294c7bdac41939ec467acf52b0,
+      type: 3}
+  - <Name>k__BackingField: CargadorCoches
+    <ID>k__BackingField: 14
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 2569152055090055453, guid: a49a58603ad30f54aa7cd6701d90a73a,
+      type: 3}
+  - <Name>k__BackingField: FarolaSolar
+    <ID>k__BackingField: 15
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 3, y: 1}
+    <Prefab>k__BackingField: {fileID: 7844257497917241289, guid: cdb9edea21611924cadba2ec8e23d261,
+      type: 3}
+  - <Name>k__BackingField: Apartamento
+    <ID>k__BackingField: 16
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 9, y: 9}
+    <Prefab>k__BackingField: {fileID: 2892468757594778086, guid: 53725d554f9a0154fb9fc518f2291cd3,
+      type: 3}
+  - <Name>k__BackingField: Chalet
+    <ID>k__BackingField: 17
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 4, y: 5}
+    <Prefab>k__BackingField: {fileID: 8652455484214862787, guid: 18f8677f62fd6824db7c80e73e6e0c31,
+      type: 3}
+  - <Name>k__BackingField: ArbolGrande
+    <ID>k__BackingField: 18
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 5, y: 5}
+    <Prefab>k__BackingField: {fileID: 7169619236583502647, guid: 11afd95e73f40004483212fe6cb2c25a,
+      type: 3}
+  - <Name>k__BackingField: ArbolMediano
+    <ID>k__BackingField: 19
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 4, y: 4}
+    <Prefab>k__BackingField: {fileID: 5825570599983152544, guid: dbf6c88edfafa1f439fc750c9f333a23,
+      type: 3}
+  - <Name>k__BackingField: ArbustoLila
+    <ID>k__BackingField: 20
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 3, y: 4}
+    <Prefab>k__BackingField: {fileID: 623511545942023388, guid: 917cda8d8707e7848980ccd230d4c23d,
+      type: 3}
+  - <Name>k__BackingField: ArbustoRosa
+    <ID>k__BackingField: 21
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 3, y: 4}
+    <Prefab>k__BackingField: {fileID: 319347951672285740, guid: 30acc60dd0f39e143a3c148b3702440a,
+      type: 3}
+  - <Name>k__BackingField: ArbustoBlanco
+    <ID>k__BackingField: 22
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 3, y: 3}
+    <Prefab>k__BackingField: {fileID: 753901890573082990, guid: bf54c668194380c4cbcd94dba47c411e,
+      type: 3}
+  - <Name>k__BackingField: HierbaFlores
+    <ID>k__BackingField: 23
+    <Damage>k__BackingField: 10
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 6285464691073941708, guid: dccf5eacb6e530a4593f1e93656d3b5f,
+      type: 3}
