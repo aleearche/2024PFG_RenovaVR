@@ -9,6 +9,8 @@ public class InputManager : MonoBehaviour
     [SerializeField]
     private Camera sceneCamera;
 
+    public Ray rayo;
+
     private Vector3 lastPosition;
 
     [SerializeField]
@@ -29,6 +31,7 @@ public class InputManager : MonoBehaviour
 
     public Vector3 GetSelectedMapPosition()
     {
+        
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = sceneCamera.nearClipPlane;
         Ray ray = sceneCamera.ScreenPointToRay(mousePos);
@@ -37,6 +40,7 @@ public class InputManager : MonoBehaviour
         {
             lastPosition = hit.point;
         }
+        Debug.Log(lastPosition);
         return lastPosition;
     }
 }
